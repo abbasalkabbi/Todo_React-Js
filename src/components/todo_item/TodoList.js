@@ -2,7 +2,7 @@
 function Todolist(props){
     return(
         <tr>
-        <th scope="row">1</th>
+        <th scope="row">{props.id}</th>
         <td>{props.body}</td>
         <td>{props.Status}</td>
         <td>
